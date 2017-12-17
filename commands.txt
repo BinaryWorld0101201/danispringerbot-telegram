@@ -1,0 +1,36 @@
+LIST OF COMMANDS (have one just so you can copy and paste. If your bot will only have 2 or 3 commands, you don't need it, but what happened last time you only had "2 or 3 inline CSS styles"? Yeah...)
+SYNTAX: command name, dash, command description
+- No dashes (just lower dashes) in command names.
+- Don't use a capital letter as the first letter of a command name.
+Bad example: Command_name - description
+Bad example: command-name - description
+Good example: command_name - description
+
+youtube - YouTube channel
+twitter - Tweets
+facebook - Fan page
+linkedin - Professional profile
+github - Code
+soundcloud - SoundCloud
+website - Official site
+play_store - Google Play Music page
+itunes - iTunes page
+apple_music - Apple Music page
+amazon - Amazon
+cd_baby - CD Baby
+stack_overflow - Stack OverFlow
+spotify - Spotify
+yandex - Yandex
+tidal - Tidal
+shazam - Shazam
+slacker - Slacker Radio
+groove - Groove
+kkbox - KKBox
+deezer - Deezer
+napster - Napster
+iheart_radio - iHeart Radio
+anghami - Anghami
+google - Look up Dani on Google
+google_images - Look up Dani on Google Images
+logo - Logo
+help - Get help or report an issue
