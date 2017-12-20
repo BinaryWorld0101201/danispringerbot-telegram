@@ -1,7 +1,7 @@
 # Dani Springer Bot
 - Telegram Bot that gives you various links for Dani Springer (that's me **:D**)
 - Find it here: [http://t.me/danispringerbot](http://t.me/danispringerbot)
-- This repo is **not** my priority right now, but feel free to comment/suggest. :) [https://danispringer.blogspot.com/](https://danispringer.blogspot.com/)
+- Comments/Questions/Suggestions/Kangaroos: [https://danispringer.blogspot.com/](https://danispringer.blogspot.com/)
 
 # How can I use this code?
 - Telegram is new for me, so my docs won't be up to par. At all. But...
