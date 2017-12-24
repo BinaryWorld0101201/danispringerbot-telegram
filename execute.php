@@ -47,7 +47,7 @@ elseif($text=="/soundcloud")
 }
 elseif($text=="/website")
 {
-    $response = "Read more on Dani's official site!\nhttps://danispringer.blogspot.com/";
+    $response = "Read more on Dani's official site!\nhttps://danispringer.github.io/";
 }
 elseif($text=="/play_store")
 {
@@ -127,7 +127,7 @@ elseif($text=="/google_images")
 }
 elseif($text=="/logo")
 {
-    $response = "Check out Dani's logo!\nhttps://3.bp.blogspot.com/-0tRtvIfMMPw/WilfdWxi6dI/AAAAAAAAKJE/NsZ517ShE3k__Vi7H6tXf7wIprLsf1vMwCLcBGAs/s1400/star-dark.jpg";
+    $response = "Check out Dani's logo!\nhttps://danispringer.github.io/i/dani-springer-tiny.jpg";
 }
 elseif($text=="/donate")
 {
