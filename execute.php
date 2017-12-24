@@ -27,7 +27,7 @@ elseif($text=="/youtube")
 }
 elseif($text=="/twitter")
 {
-    $response = "Follow Dani on Twitter!\nhttps://twitter.com/DaniSpringerCom";
+    $response = "Follow Dani on Twitter!\nhttps://twitter.com/imDaniSpringer";
 }
 elseif($text=="/facebook")
 {
@@ -129,6 +129,10 @@ elseif($text=="/logo")
 {
     $response = "Check out Dani's logo!\nhttps://3.bp.blogspot.com/-0tRtvIfMMPw/WilfdWxi6dI/AAAAAAAAKJE/NsZ517ShE3k__Vi7H6tXf7wIprLsf1vMwCLcBGAs/s1400/star-dark.jpg";
 }
+elseif($text=="/donate")
+{
+    $response = "Help me bring you more great music!\nhttps://www.gofundme.com/help-me-bring-you-more-great-music";
+}
 elseif($text=="/help")
 {
     $response = "Something wrong with me?\nPlease tell @DaniSpringer about it.";
@@ -151,5 +155,5 @@ $parameters["reply_markup"] = '{ "keyboard": [
     ["/groove", "/kkbox", "/deezer"],
     ["/napster", "/iheart_radio", "/anghami"],
     ["/google", "/google_images", "/logo"],
-    ["/help"]], "one_time_keyboard": false}';
+    ["/donate", "/help"]], "one_time_keyboard": false}';
 echo json_encode($parameters);
