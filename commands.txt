@@ -6,6 +6,7 @@ Bad example: Command_name - description
 Bad example: command-name - description
 Good example: command_name - description
 
+help - Get help or report an issue
 youtube - YouTube channel
 twitter - Tweets
 facebook - Fan page
@@ -34,4 +35,3 @@ google - Look up Dani on Google
 google_images - Look up Dani on Google Images
 logo - Logo
 donate - Help me bring more great music
-help - Get help or report an issue
