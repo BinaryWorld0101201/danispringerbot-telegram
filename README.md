@@ -7,7 +7,7 @@
 - Telegram is new for me, so my docs won't be up to par. At all. But...
 - Check out this article: [https://www.salvatorecordiano.it/creare-un-bot-telegram-guida-passo-passo/](https://www.salvatorecordiano.it/creare-un-bot-telegram-guida-passo-passo/)
 - It's in Italian, but thank G-d, we have Google Translate Etc. Do yourself a favor: read it before trying to use *my* poorly written instructions.
-- You'll use Heroku to deploy, and Dropbox to host (yeah, GitHub is probably better, but again I'm not an expert in Telegram so I followed the article's instructions, but Heroku allows GitHub deploying as well Dropbox, so if you want to try it, go right ahead!).
+- You'll use Heroku to deploy, and Dropbox to host (yeah, GitHub is probably better, but again I'm not an expert in Telegram so I followed the article's instructions, but Heroku allows GitHub deploying as well as Dropbox, so if you want to try it, go right ahead!).
 - First, create your bot using the Father of all bots (don't trust me on this: Google 'How to create a Telegram bot'. It's easy). Then
 - Create a Heroku account and choose to create a new php app.
 - Connect Heroku to Dropbox (look for such a option on the Heroku website itself).
