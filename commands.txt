@@ -25,7 +25,6 @@ yandex - Yandex
 tidal - Tidal
 shazam - Shazam
 slacker - Slacker Radio
-groove - Groove
 kkbox - KKBox
 deezer - Deezer
 napster - Napster

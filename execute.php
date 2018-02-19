@@ -92,10 +92,6 @@ elseif($text=="/slacker" || $text=="slacker")
 {
     $response = "Play Dani's music on Slacker Radio!\nhttp://www.slacker.com/artist/dani-springer";
 }
-elseif($text=="/groove" || $text=="groove")
-{
-    $response = "Buy Dani's music on Groove!\nhttps://www.microsoft.com/en-us/store/music/artist/dani-springer/721a8c00-0200-11db-89ca-0019b92a3933";
-}
 elseif($text=="/kkbox" || $text=="kkbox")
 {
     $response = "Buy Dani's music on KKBox!\nhttps://www.kkbox.com/jp/ja/album/2mJWyqnC.i3hS0F1l5eq009H-index.html";
@@ -151,8 +147,8 @@ $parameters["reply_markup"] = '{ "keyboard": [
     ["Apple Music", "Amazon", "CD Baby"],
     ["Stack OverFlow", "Shazam", "Tidal"],
     ["Yandex", "Spotify", "Slacker"],
-    ["Groove", "KKBOX", "Deezer"],
-    ["Napster", "iHeart Radio", "Anghami"],
+    ["KKBOX", "Deezer", "Anghami"],
+    ["Napster", "iHeart Radio"],
     ["Google", "Google Images", "Logo"],
     ["Donate", "Help"]], "one_time_keyboard": false}';
 echo json_encode($parameters);
