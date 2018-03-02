@@ -1,7 +1,6 @@
 # Dani Springer Bot
 - Telegram Bot that gives you various links for Dani Springer (that's me **:D**)
 - Find it here: [http://t.me/danispringerbot](http://t.me/danispringerbot)
-- Comments/Questions/Suggestions/Kangaroos: [https://danispringer.github.io/](https://danispringer.github.io/)
 
 # How can I use this code?
 - Telegram is new for me, so my docs won't be up to par. At all. But...
@@ -15,7 +14,7 @@
 - You plop the register.php file in the Dropbox folder (you know which one!), deploy your 'App' on Heroku (it should say "success" if...it works), visit https:// yourbotname . herokuapp . com/execute.php (without the spaces, duh) to hook up your DropBox with your bot.
 - You should get a success message (on the resulting browser page), otherwise you need to fix your code somewhere...Yup, more coffee.
 - If successful so far:
-- Delete the register file from Dropbox
+- Delete the register file from Dropbox.
 - Plop the rest of the files in Dropbox (note: **execute.php** is where the fun happens. You should only need to edit that one, besides the minimal and necessary edits to **register.php**, and of course **commands.txt** - if you want to use it).
 - Deploy again on Heroku.
 
@@ -24,4 +23,8 @@
 - Upload the updated file (probably **execute.php**) to Dropbox (drag-and-drop might help you)
 - Deploy on Heroku again.
 
+# Contribute
+- Comments/Questions/Suggestions/Kangaroos: [https://danispringer.github.io/](https://danispringer.github.io/)
+
+# License
 ###### MIT License
