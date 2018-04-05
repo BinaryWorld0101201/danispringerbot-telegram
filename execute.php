@@ -34,7 +34,7 @@ elseif($text=="/twitter" || $text=="twitter")
 }
 elseif($text=="/facebook" || $text=="facebook")
 {
-    $response = "Follow Dani on Facebook!\nhttps://www.facebook.com/DaniSpringerPage/";
+    $response = "Follow Dani on Facebook!\nhttps://www.facebook.com/imDaniSpringer/";
 }
 elseif($text=="/linkedin" || $text=="linkedin")
 {
