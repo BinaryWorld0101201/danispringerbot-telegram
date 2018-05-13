@@ -94,7 +94,7 @@ elseif($text=="/slacker" || $text=="slacker")
 }
 elseif($text=="/kkbox" || $text=="kkbox")
 {
-    $response = "Buy Dani's music on KKBox!\nhttps://www.kkbox.com/jp/ja/album/2mJWyqnC.i3hS0F1l5eq009H-index.html";
+    $response = "Buy Dani's music on KKBox!\nhttps://www.kkbox.com/jp/ja/artist/kMofOQIp1IH1JO0F0V7.m08K-index-1.html";
 }
 elseif($text=="/deezer" || $text=="deezer")
 {
