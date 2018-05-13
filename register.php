@@ -1,10 +1,10 @@
 <?php
 
-// Stuff you need to change
-$WEBHOOK_URL = 'https://yourbotname.herokuapp.com/execute.php';
-$BOT_TOKEN = 'TOKEN HERE';
+// to be changed by you
+$WEBHOOK_URL = 'https://{YOUR APP NAME}.herokuapp.com/execute.php';
+$BOT_TOKEN = 'YOUR TOKEN';
 
-// Stuff not to change
+// not to be changed
 $API_URL = 'https://api.telegram.org/bot' . $BOT_TOKEN .'/';
 $method = 'setWebhook';
 $parameters = array('url' => $WEBHOOK_URL);
