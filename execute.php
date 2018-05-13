@@ -70,6 +70,11 @@ $parameters = array('chat_id' => $chatId, "text" => 'some message');
 
 $keyboard = ['inline_keyboard' => [
                                       [
+                                          ['text' =>  'myText', 'url' => "https://google.com"],
+                                          ['text' =>  'myText', 'url' => "https://google.com"],
+                                          ['text' =>  'myText', 'url' => "https://google.com"],
+                                          ['text' =>  'myText', 'url' => "https://google.com"],
+                                          ['text' =>  'myText', 'url' => "https://google.com"],
                                           ['text' =>  'myText', 'url' => "https://google.com"]
                                       ]
                                   ]
