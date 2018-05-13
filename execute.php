@@ -66,7 +66,7 @@ else
 
 
 
-$parameters = array('chat_id' => $chatId, "text" => 'some message');
+$parameters = array('chat_id' => $chatId, "text" => 'text...to be hidden eventually');
 
 $keyboard = ['inline_keyboard' => [
                                       [
