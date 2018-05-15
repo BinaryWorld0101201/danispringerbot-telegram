@@ -80,9 +80,6 @@ $keyboard_music = ['inline_keyboard' => [
                                       ],
                                       [
                                           ['text' => 'Listen on Anghami', 'url' => "https://www.anghami.com/artist/2541446"]
-                                      ],
-                                      [
-                                          ['text' => 'Need help? Want more buttons? Chat with @DaniSpringer', 'url' => "https://t.me/DaniSpringer"]
                                       ]
                                   ]
                               ];
@@ -99,9 +96,6 @@ $keyboard_social = ['inline_keyboard' => [
                                       ],
                                       [
                                           ['text' => 'Connect with Dani on LinkedIn', 'url' => "https://www.linkedin.com/in/danispringer/"]
-                                      ],
-                                      [
-                                          ['text' => 'Need help? Want more buttons? Chat with @DaniSpringer', 'url' => "https://t.me/DaniSpringer"]
                                       ]
                                   ]
                               ];
@@ -126,26 +120,7 @@ $keyboard_about = ['inline_keyboard' => [
                                           ['text' => "Dani's Profile picture", 'url' => "https://danispringer.github.io/i/dani-springer-tiny.jpg"]
                                       ],
                                       [
-                                          ['text' => 'Help Dani bring you more great music: Donate now', 'url' => "https://www.gofundme.com/help-me-bring-you-more-great-music"]
-                                      ],
-                                      [
-                                          ['text' => 'Need help? Want more buttons? Chat with @DaniSpringer', 'url' => "https://t.me/DaniSpringer"]
-                                      ]
-                                  ]
-                              ];
-
-$keyboard_help = ['inline_keyboard' => [
-                                      [
-                                          ['text' => 'Need help? Want more buttons? Chat with @DaniSpringer', 'url' => "https://t.me/DaniSpringer"]
-                                      ],
-                                      [
-                                          ['text' => "Visit official site", 'url' => "https://danispringer.github.io/"]
-                                      ],
-                                      [
-                                          ['text' => 'Search for Dani on Google', 'url' => "https://www.google.com/search?q=dani+springer"]
-                                      ],
-                                      [
-                                          ['text' => 'Search for Dani on Google Images', 'url' => "http://www.google.com/images?q=dani+springer"]
+                                          ['text' => 'Donate', 'url' => "https://www.gofundme.com/help-me-bring-you-more-great-music"]
                                       ]
                                   ]
                               ];
@@ -224,17 +199,14 @@ $keyboard_full_list = ['inline_keyboard' => [
                                           ['text' => "Dani's Profile picture", 'url' => "https://danispringer.github.io/i/dani-springer-tiny.jpg"]
                                       ],
                                       [
-                                          ['text' => 'Help Dani bring you more great music: Donate now', 'url' => "https://www.gofundme.com/help-me-bring-you-more-great-music"]
-                                      ],
-                                      [
-                                          ['text' => 'Need help? Want more buttons? Chat with @DaniSpringer', 'url' => "https://t.me/DaniSpringer"]
+                                          ['text' => 'Donate', 'url' => "https://www.gofundme.com/help-me-bring-you-more-great-music"]
                                       ]
                                   ]
                               ];
 
 $keyboard = "";
-$message = "Hello it's message";
-$help_message = "Type '/' to see available lists.\nAm I missing a command? Ask @DaniSpringer to add more!";
+$message = "Hello!";
+$help_message = "Type '/' to see available lists.\nNeed help? Chat directly with @DaniSpringer!";
 
 if(strpos($text, "/start") === 0 || $text=="/list" || $text=="list")
 {
@@ -261,11 +233,6 @@ elseif ($text=="/all" || $text=="all")
     $keyboard = $keyboard_full_list;
     $message = "Here are all of Dani's links!\n$help_message";
 }
-elseif ($text=="/help" || $text=="help")
-{
-    $keyboard = $keyboard_help;
-    $message = "Need help? Chat with @DaniSpringer!\n$help_message";
-}
 else
 {
     $keyboard = $keyboard_full_list;
@@ -284,10 +251,8 @@ echo json_encode($parameters);
 
 // todo
 // profile picture should return an image instead of opening a url
-// help button should open chat with @DaniSpringer
 // add option to listen to last video on youtube
 // add option to see resume (later, if possible, as file)
-// assign help keyboard to /help command and else clause in if statement
 // use special keyboard instead of commands?
 // return text instead of URL in button
 
@@ -296,5 +261,4 @@ music - Get Dani's music stores links
 social - Get Dani's social media links
 about - Get more info about Dani
 all - Get all of Dani's links
-help - Get help using @DaniSpringerBot
 */
