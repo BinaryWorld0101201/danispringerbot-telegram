@@ -223,32 +223,32 @@ $help_message = "Type '/' to see available lists.\nNeed help? Chat directly with
 if(strpos($text, "/start") === 0 || $text=="/list" || $text=="list")
 {
     $keyboard = $keyboard_full_list;
-    $message = "Here are all of Dani's links!\n$help_message";
+    $message = "Ok, $firstname: Here are all of Dani's links!\n$help_message";
 }
 elseif($text=="/music" || $text=="music")
 {
     $keyboard = $keyboard_music;
-    $message = "Here are Dani's music links!\n$help_message";
+    $message = "Ok, $firstname: Here are Dani's music links!\n$help_message";
 }
 elseif ($text=="/social" || $text=="social")
 {
     $keyboard = $keyboard_social;
-    $message = "Here are Dani's social media links!\n$help_message";
+    $message = "Ok, $firstname: Here are Dani's social media links!\n$help_message";
 }
 elseif ($text=="/about" || $text=="about")
 {
     $keyboard = $keyboard_about;
-    $message = "Here is more info for Dani Springer!\n$help_message";
+    $message = "Ok, $firstname: Here is more info for Dani Springer!\n$help_message";
 }
 elseif ($text=="/all" || $text=="all")
 {
     $keyboard = $keyboard_full_list;
-    $message = "Here are all of Dani's links!\n$help_message";
+    $message = "Ok, $firstname: Here are all of Dani's links!\n$help_message";
 }
 else
 {
     $keyboard = $keyboard_full_list;
-    $message = "Sorry, I'm not sure what '$text' means, but you can ask @DaniSpringer to teach me that!\n$help_message";
+    $message = "Sorry $firstname, I'm not sure what '$text' means, but you can ask @DaniSpringer to teach me that!\n$help_message";
 }
 
 
@@ -262,6 +262,7 @@ $parameters["reply_markup"] = json_encode($keyboard, true);
 echo json_encode($parameters);
 
 // todo
+// greet user
 
 // use special keyboard instead of commands?
 /*
