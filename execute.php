@@ -37,7 +37,7 @@ $keyboard_music = ['inline_keyboard' => [
                                           ['text' => 'Listen on YouTube', 'url' => "https://youtube.com/DaniSpringer"]
                                       ],
                                       [
-                                          ['text' => 'Preview on SoundCloud', 'url' => "https://soundcloud.com/danispringer"]
+                                          ['text' => 'Follow on Spotify', 'url' => "https://play.spotify.com/artist/6wp28GMW9iypStW4pCsCN9"]
                                       ],
                                       [
                                           ['text' => 'Buy on Play Store', 'url' => "https://play.google.com/store/music/artist/Dani_Springer?id=Azs4pemwjhdjeg3czesvzojv4au"]
@@ -49,13 +49,16 @@ $keyboard_music = ['inline_keyboard' => [
                                           ['text' => 'Follow on Apple Music', 'url' => "https://itunes.apple.com/us/artist/dani-springer/1101532290"]
                                       ],
                                       [
+                                          ['text' => 'Buy on MostlyMusic', 'url' => "https://mostlymusic.com/collections/vendors?q=Dani%20Springer"]
+                                      ],
+                                      [
                                           ['text' => 'Buy on Amazon', 'url' => "https://www.amazon.com/s/ref=ntt_srch_drd_B01EE9QVCS?ie=UTF8&field-keywords=Dani%20Springer&index=digital-music&search-type=ss"]
                                       ],
                                       [
                                           ['text' => 'Buy on CD Baby', 'url' => "https://store.cdbaby.com/Artist/DaniSpringer"]
                                       ],
                                       [
-                                          ['text' => 'Follow on Spotify', 'url' => "https://play.spotify.com/artist/6wp28GMW9iypStW4pCsCN9"]
+                                          ['text' => 'Preview on SoundCloud', 'url' => "https://soundcloud.com/danispringer"]
                                       ],
                                       [
                                           ['text' => 'Buy on Yandex', 'url' => "https://music.yandex.ua/artist/4345578"]
@@ -152,6 +155,9 @@ $keyboard_full_list = ['inline_keyboard' => [
                                       ],
                                       [
                                           ['text' => 'Follow on GitHub', 'url' => "https://github.com/DaniSpringer"]
+                                      ],
+                                      [
+                                          ['text' => 'Buy on MostlyMusic', 'url' => "https://mostlymusic.com/collections/vendors?q=Dani%20Springer"]
                                       ],
                                       [
                                           ['text' => 'Preview on SoundCloud', 'url' => "https://soundcloud.com/danispringer"]
@@ -260,13 +266,3 @@ $parameters["method"] = "sendMessage";
 $parameters["reply_markup"] = json_encode($keyboard, true);
 
 echo json_encode($parameters);
-
-// todo
-
-// use special keyboard instead of commands?
-/*
-music - Get Dani's music stores links
-social - Get Dani's social media links
-about - Get more info about Dani
-all - Get all of Dani's links
-*/
