@@ -264,8 +264,6 @@ echo json_encode($parameters);
 // todo
 
 // use special keyboard instead of commands?
-// return text instead of URL in button
-
 /*
 music - Get Dani's music stores links
 social - Get Dani's social media links
