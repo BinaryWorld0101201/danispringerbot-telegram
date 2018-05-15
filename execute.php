@@ -116,7 +116,7 @@ $keyboard_list = ['inline_keyboard' => [
 
 $keyboard = "";
 
-if(strpos($text, "/start") === 0 || $text=="ciao")
+if(strpos($text, "/start") === 0 || $text=="/list")
 {
     $keyboard = $keyboard_list;
 }
