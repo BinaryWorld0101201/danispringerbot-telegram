@@ -1,0 +1,4 @@
+music - Get Dani's music stores links
+social - Get Dani's social media links
+about - Get more info about Dani
+all - Get all of Dani's links
