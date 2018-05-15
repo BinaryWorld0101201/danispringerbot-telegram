@@ -127,7 +127,7 @@ else
 
 
 
-$parameters = array('chat_id' => $chatId, 'text' => 'text...to be hidden eventually');
+$parameters = array('chat_id' => $chatId, 'text' => "Here are Dani's links!");
 
 $parameters["method"] = "sendMessage";
 
