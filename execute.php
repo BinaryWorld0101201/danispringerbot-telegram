@@ -49,7 +49,7 @@ $keyboard_music = ['inline_keyboard' => [
                                           ['text' => 'Follow on Apple Music', 'url' => "https://itunes.apple.com/us/artist/dani-springer/1101532290"]
                                       ],
                                       [
-                                          ['text' => 'Buy on MostlyMusic', 'url' => "https://mostlymusic.com/collections/vendors?q=Dani%20Springer"]
+                                          ['text' => 'Preview on MostlyMusic', 'url' => "https://mostlymusic.com/collections/vendors?q=Dani%20Springer"]
                                       ],
                                       [
                                           ['text' => 'Buy on Amazon', 'url' => "https://www.amazon.com/s/ref=ntt_srch_drd_B01EE9QVCS?ie=UTF8&field-keywords=Dani%20Springer&index=digital-music&search-type=ss"]
@@ -157,7 +157,7 @@ $keyboard_full_list = ['inline_keyboard' => [
                                           ['text' => 'Follow on GitHub', 'url' => "https://github.com/DaniSpringer"]
                                       ],
                                       [
-                                          ['text' => 'Buy on MostlyMusic', 'url' => "https://mostlymusic.com/collections/vendors?q=Dani%20Springer"]
+                                          ['text' => 'Preview on MostlyMusic', 'url' => "https://mostlymusic.com/collections/vendors?q=Dani%20Springer"]
                                       ],
                                       [
                                           ['text' => 'Preview on SoundCloud', 'url' => "https://soundcloud.com/danispringer"]
@@ -229,27 +229,27 @@ $help_message = "Type '/' to see available lists.\nNeed help? Chat directly with
 if(strpos($text, "/start") === 0 || $text=="/list" || $text=="list")
 {
     $keyboard = $keyboard_full_list;
-    $message = "Ok, $firstname: Here are all of Dani's links!\n$help_message";
+    $message = "Hey $firstname! Here are all of Dani's links!\n$help_message";
 }
 elseif($text=="/music" || $text=="music")
 {
     $keyboard = $keyboard_music;
-    $message = "Ok, $firstname: Here are Dani's music links!\n$help_message";
+    $message = "OK, $firstname: Here are Dani's music links!\n$help_message";
 }
 elseif ($text=="/social" || $text=="social")
 {
     $keyboard = $keyboard_social;
-    $message = "Ok, $firstname: Here are Dani's social media links!\n$help_message";
+    $message = "OK, $firstname: Here are Dani's social media links!\n$help_message";
 }
 elseif ($text=="/about" || $text=="about")
 {
     $keyboard = $keyboard_about;
-    $message = "Ok, $firstname: Here is more info for Dani Springer!\n$help_message";
+    $message = "OK, $firstname: Here is more info for Dani Springer!\n$help_message";
 }
 elseif ($text=="/all" || $text=="all")
 {
     $keyboard = $keyboard_full_list;
-    $message = "Ok, $firstname: Here are all of Dani's links!\n$help_message";
+    $message = "OK, $firstname: Here are all of Dani's links!\n$help_message";
 }
 else
 {
