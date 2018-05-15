@@ -61,7 +61,7 @@ $keyboard_music = ['inline_keyboard' => [
                                           ['text' => 'Buy on Yandex', 'url' => "https://music.yandex.ua/artist/4345578"]
                                       ],
                                       [
-                                          ['text' => 'Listen on Tidal', 'url' => "http://tidal.com/us/store/artist/7732967"]
+                                          ['text' => 'Buy on Tidal', 'url' => "http://tidal.com/us/store/artist/7732967"]
                                       ],
                                       [
                                           ['text' => 'Listen on Shazam', 'url' => "https://www.shazam.com/gb/artist/202646271/dani-springer"]
@@ -95,6 +95,9 @@ $keyboard_social = ['inline_keyboard' => [
                                           ['text' => 'Like Dani on Facebook', 'url' => "https://www.facebook.com/imDaniSpringer/"]
                                       ],
                                       [
+                                          ['text' => 'Follow on Instagram', 'url' => "https://www.instagram.com/imdanispringer/"]
+                                      ],
+                                      [
                                           ['text' => 'Connect with Dani on LinkedIn', 'url' => "https://www.linkedin.com/in/danispringer/"]
                                       ]
                                   ]
@@ -103,6 +106,9 @@ $keyboard_social = ['inline_keyboard' => [
 $keyboard_about = ['inline_keyboard' => [
                                       [
                                           ['text' => 'Connect on LinkedIn', 'url' => "https://www.linkedin.com/in/danispringer/"]
+                                      ],
+                                      [
+                                          ['text' => "See Dani's Resume", 'url' => "https://danispringer.github.io/Dani-Springer-Resume.pdf"]
                                       ],
                                       [
                                           ['text' => 'Follow on GitHub', 'url' => "https://github.com/DaniSpringer"]
@@ -136,7 +142,13 @@ $keyboard_full_list = ['inline_keyboard' => [
                                           ['text' => 'Follow on Facebook', 'url' => "https://www.facebook.com/imDaniSpringer/"]
                                       ],
                                       [
+                                          ['text' => 'Follow on Instagram', 'url' => "https://www.instagram.com/imdanispringer/"]
+                                      ],
+                                      [
                                           ['text' => 'Connect on LinkedIn', 'url' => "https://www.linkedin.com/in/danispringer/"]
+                                      ],
+                                      [
+                                          ['text' => "See Dani's Resume", 'url' => "https://danispringer.github.io/Dani-Springer-Resume.pdf"]
                                       ],
                                       [
                                           ['text' => 'Follow on GitHub', 'url' => "https://github.com/DaniSpringer"]
@@ -169,7 +181,7 @@ $keyboard_full_list = ['inline_keyboard' => [
                                           ['text' => 'Buy on Yandex', 'url' => "https://music.yandex.ua/artist/4345578"]
                                       ],
                                       [
-                                          ['text' => 'Listen on Tidal', 'url' => "http://tidal.com/us/store/artist/7732967"]
+                                          ['text' => 'Buy on Tidal', 'url' => "http://tidal.com/us/store/artist/7732967"]
                                       ],
                                       [
                                           ['text' => 'Listen on Shazam', 'url' => "https://www.shazam.com/gb/artist/202646271/dani-springer"]
@@ -250,9 +262,7 @@ $parameters["reply_markup"] = json_encode($keyboard, true);
 echo json_encode($parameters);
 
 // todo
-// profile picture should return an image instead of opening a url
-// add option to listen to last video on youtube
-// add option to see resume (later, if possible, as file)
+
 // use special keyboard instead of commands?
 // return text instead of URL in button
 
