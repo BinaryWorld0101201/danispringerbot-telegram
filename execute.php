@@ -262,7 +262,6 @@ $parameters["reply_markup"] = json_encode($keyboard, true);
 echo json_encode($parameters);
 
 // todo
-// greet user
 
 // use special keyboard instead of commands?
 /*
