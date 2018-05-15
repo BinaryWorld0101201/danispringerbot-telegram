@@ -21,43 +21,104 @@ $text = strtolower($text);
 
 header("Content-Type: application/json");
 
-// $myUrls = [
-//     "YouTube" => "https://youtube.com/danispringer",
-//     "Twitter" => "https://twitter.com/imDaniSpringer",
-//     "Facebook" => "https://www.facebook.com/imDaniSpringer/",
-//     "LinkedIn" => "https://www.linkedin.com/in/danispringer/",
-//     "GitHub" => "https://github.com/DaniSpringer",
-//     "SoundCloud" => "https://soundcloud.com/danispringer",
-//     "Website" => "https://danispringer.github.io/",
-//     "Play Store" => "https://play.google.com/store/music/artist/Dani_Springer?id=Azs4pemwjhdjeg3czesvzojv4au",
-//     "iTunes" => "https://itunes.apple.com/us/artist/dani-springer/id1101532290",
-//     "Amazon" => "https://www.amazon.com/s/ref=ntt_srch_drd_B01EE9QVCS?ie=UTF8&field-keywords=Dani%20Springer&index=digital-music&search-type=ss",
-//     "CDBaby" => "https://store.cdbaby.com/Artist/DaniSpringer",
-//     "StackOverFlow" => "http://stackoverflow.com/users/5306470/dani-springer?tab=profile",
-//     "Spotify" => "https://play.spotify.com/artist/6wp28GMW9iypStW4pCsCN9",
-//     "Yandex" => "https://music.yandex.ua/artist/4345578",
-//     "Tidal" => "http://tidal.com/us/store/artist/7732967",
-//     "Shazam" => "https://www.shazam.com/gb/artist/202646271/dani-springer",
-//     "Slacker" => "http://www.slacker.com/artist/dani-springer",
-//     "KKBOX" => "https://www.kkbox.com/jp/ja/artist/kMofOQIp1IH1JO0F0V7.m08K-index-1.html",
-//     "Deezer" => "http://www.deezer.com/us/artist/10164056",
-//     "Napster" => "https://us.napster.com/artist/dani-springer",
-//     "iHeartRadio" => "https://www.iheart.com/artist/dani-springer-31186894/",
-//     "Anghami" => "https://www.anghami.com/artist/2541446",
-//     "Google" => "https://www.google.com/search?q=dani+springer",
-//     "GoogleImages" => "http://www.google.com/images?q=dani+springer",
-//     "Logo" => "https://danispringer.github.io/i/dani-springer-tiny.jpg",
-//     "Donate" => "https://www.gofundme.com/help-me-bring-you-more-great-music",
-//     "Help" => "HELP LINK"
-// ];
+$inline_keyboard_example = ['inline_keyboard' => [
+                                      [
+                                          ['text' =>  'myText', 'url' => "https://www.google.com"],
+                                          ['text' =>  'myText', 'url' => "https://www.google.com"]
+                                      ],
+                                      [
+                                          ['text' => 'myText', 'url' => "https://www.google.com"]
+                                      ]
+                                  ]
+                            ];
 
-if(strpos($text, "/start") === 0 || $text=="/list")
+$keyboard_list = ['inline_keyboard' => [
+                                      [
+                                          ['text' => 'Help', 'url' => "https://google.com/search?q=help+me"]
+                                      ],
+                                      [
+                                          ['text' => 'YouTube', 'url' => "https://youtube.com/DaniSpringer"]
+                                      ],
+                                      [
+                                          ['text' => 'Twitter', 'url' => "https://twitter.com/imDaniSpringer"]
+                                      ],
+                                      [
+                                          ['text' => 'Facebook', 'url' => "https://www.facebook.com/imDaniSpringer/"]
+                                      ],
+                                      [
+                                          ['text' => 'LinkedIn', 'url' => "https://www.linkedin.com/in/danispringer/"]
+                                      ],
+                                      [
+                                          ['text' => 'GitHub', 'url' => "https://github.com/DaniSpringer"]
+                                      ],
+                                      [
+                                          ['text' => 'SoundCloud', 'url' => "https://soundcloud.com/danispringer"]
+                                      ],
+                                      [
+                                          ['text' => 'Official Site', 'url' => "https://danispringer.github.io/"]
+                                      ],
+                                      [
+                                          ['text' => 'Play Store', 'url' => "https://play.google.com/store/music/artist/Dani_Springer?id=Azs4pemwjhdjeg3czesvzojv4au"]
+                                      ],
+                                      [
+                                          ['text' => 'iTunes', 'url' => "https://itunes.apple.com/us/artist/dani-springer/id1101532290"]
+                                      ],
+                                      [
+                                          ['text' => 'Amazon', 'url' => "https://www.amazon.com/s/ref=ntt_srch_drd_B01EE9QVCS?ie=UTF8&field-keywords=Dani%20Springer&index=digital-music&search-type=ss"]
+                                      ],
+                                      [
+                                          ['text' => 'CD Baby', 'url' => "https://store.cdbaby.com/Artist/DaniSpringer"]
+                                      ],
+                                      [
+                                          ['text' => 'Stack Overflow', 'url' => "https://stackoverflow.com/users/5306470/user770?tab=profile"]
+                                      ],
+                                      [
+                                          ['text' => 'Spotify', 'url' => "https://play.spotify.com/artist/6wp28GMW9iypStW4pCsCN9"]
+                                      ],
+                                      [
+                                          ['text' => 'Yandex', 'url' => "https://music.yandex.ua/artist/4345578"]
+                                      ],
+                                      [
+                                          ['text' => 'Tidal', 'url' => "http://tidal.com/us/store/artist/7732967"]
+                                      ],
+                                      [
+                                          ['text' => 'Shazam', 'url' => "https://www.shazam.com/gb/artist/202646271/dani-springer"]
+                                      ],
+                                      [
+                                          ['text' => 'Slacker Radio', 'url' => "http://www.slacker.com/artist/dani-springer"]
+                                      ],
+                                      [
+                                          ['text' => 'KKBOX', 'url' => "https://www.kkbox.com/jp/ja/artist/kMofOQIp1IH1JO0F0V7.m08K-index-1.html"]
+                                      ],
+                                      [
+                                          ['text' => 'Napster', 'url' => "https://us.napster.com/artist/dani-springer"]
+                                      ],
+                                      [
+                                          ['text' => 'iHeart Radio', 'url' => "https://www.iheart.com/artist/dani-springer-31186894/"]
+                                      ],
+                                      [
+                                          ['text' => 'Anghami', 'url' => "https://www.anghami.com/artist/2541446"]
+                                      ],
+                                      [
+                                          ['text' => 'Google', 'url' => "https://www.google.com/search?q=dani+springer"]
+                                      ],
+                                      [
+                                          ['text' => 'Google Images', 'url' => "http://www.google.com/images?q=dani+springer"]
+                                      ],
+                                      [
+                                          ['text' => 'Logo', 'url' => "https://danispringer.github.io/i/dani-springer-tiny.jpg"]
+                                      ],
+                                      [
+                                          ['text' => 'Donate', 'url' => "https://www.gofundme.com/help-me-bring-you-more-great-music"]
+                                      ]
+                                  ]
+                              ];
+
+$keyboard = "";
+
+if(strpos($text, "/start") === 0 || $text=="ciao")
 {
-    // return buttons
-}
-elseif($text=="/help" || $text=="help")
-{
-    // return single help button
+    $keyboard = $keyboard_list;
 }
 else
 {
@@ -66,19 +127,7 @@ else
 
 
 
-$parameters = array('chat_id' => $chatId, "text" => 'text...to be hidden eventually');
-
-$keyboard = ['inline_keyboard' => [
-                                      [
-                                          ['text' =>  'myText', 'url' => "https://google.com"],
-                                          ['text' =>  'myText', 'url' => "https://google.com"],
-                                          ['text' =>  'myText', 'url' => "https://google.com"],
-                                          ['text' =>  'myText', 'url' => "https://google.com"],
-                                          ['text' =>  'myText', 'url' => "https://google.com"],
-                                          ['text' =>  'myText', 'url' => "https://google.com"]
-                                      ]
-                                  ]
-                              ];
+$parameters = array('chat_id' => $chatId, 'text' => 'text...to be hidden eventually');
 
 $parameters["method"] = "sendMessage";
 
