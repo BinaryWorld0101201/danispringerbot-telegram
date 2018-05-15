@@ -1,4 +1,4 @@
-[I'm soon overhauling this README to (hopefully) be much better]
+[I'm soon overhauling this README to (hopefully) be much easier to understand and use. First, I'm overhauling the bot itself! :D]
 # Dani Springer Bot
 - Telegram Bot that gives you various links for Dani Springer (that's me **:D**)
 - Find it here: [http://t.me/danispringerbot](http://t.me/danispringerbot)
