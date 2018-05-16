@@ -1,4 +1,4 @@
-# Dani Springer Bot
+# Dani Springer Bot (Telegram)
 - Telegram Bot that gives you various links for Dani Springer (That's me! 😄).
 - Chat with @DaniSpringerBot here: [http://t.me/danispringerbot](http://t.me/danispringerbot)
 
