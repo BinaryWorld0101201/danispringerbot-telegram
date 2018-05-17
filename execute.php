@@ -102,6 +102,9 @@ $keyboard_social = ['inline_keyboard' => [
                                       ],
                                       [
                                           ['text' => 'Connect with Dani on LinkedIn', 'url' => "https://www.linkedin.com/in/danispringer/"]
+                                      ],
+                                      [
+                                          ['text' => "Chat with my best buddy '@imDaniSpringer Bot'", 'url' => "https://www.facebook.com/imDaniSpringer/"]
                                       ]
                                   ]
                               ];
@@ -115,6 +118,9 @@ $keyboard_about = ['inline_keyboard' => [
                                       ],
                                       [
                                           ['text' => 'Follow Dani on GitHub', 'url' => "https://github.com/danispringer"]
+                                      ],
+                                      [
+                                          ['text' => "Chat with my best buddy '@imDaniSpringer Bot'", 'url' => "https://www.facebook.com/imDaniSpringer/"]
                                       ],
                                       [
                                           ['text' => "Visit Dani's official site", 'url' => "https://danispringer.github.io/"]
@@ -155,6 +161,9 @@ $keyboard_full_list = ['inline_keyboard' => [
                                       ],
                                       [
                                           ['text' => 'Follow Dani on GitHub', 'url' => "https://github.com/danispringer"]
+                                      ],
+                                      [
+                                          ['text' => "Chat with my best buddy '@imDaniSpringer Bot'", 'url' => "https://www.facebook.com/imDaniSpringer/"]
                                       ],
                                       [
                                           ['text' => "Preview Dani's music on MostlyMusic", 'url' => "https://mostlymusic.com/collections/vendors?q=Dani%20Springer"]
