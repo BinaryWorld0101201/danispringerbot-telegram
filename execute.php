@@ -37,7 +37,7 @@ $keyboard_music = ['inline_keyboard' => [
                                           ['text' => "Listen to Dani's music on YouTube", 'url' => "https://youtube.com/danispringer"]
                                       ],
                                       [
-                                          ['text' => 'Follow Dani on Spotify', 'url' => "https://play.spotify.com/artist/6wp28GMW9iypStW4pCsCN9"]
+                                          ['text' => "Listen to Dani's music on Spotify", 'url' => "https://play.spotify.com/artist/6wp28GMW9iypStW4pCsCN9"]
                                       ],
                                       [
                                           ['text' => "Buy Dani's music on the Play Store", 'url' => "https://play.google.com/store/music/artist/Dani_Springer?id=Azs4pemwjhdjeg3czesvzojv4au"]
