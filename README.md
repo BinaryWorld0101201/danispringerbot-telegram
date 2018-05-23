@@ -8,8 +8,12 @@
 - Note: rename "register.template.php" to register.php
 - **NOTE:** Heroku is discontinuing Dropbox sync. Use GitHub or other services instead. Read more: [https://devcenter.heroku.com/articles/dropbox-sync-sunset-notice](https://devcenter.heroku.com/articles/dropbox-sync-sunset-notice)
 
-# Contribute
-- Comments/Questions/Suggestions/Kangaroos: [https://danispringer.github.io/](https://danispringer.github.io/)
+# Contributing
+Want to help? You can:
+- Suggest changes by creating an Issue.
+- Submit your own fix or improvements by creating a Pull Request.
+- Share this project to spread the word.
+- Contact me: [https://danispringer.github.io/](https://danispringer.github.io/)
 
 # License
-###### MIT License
+- Distributed under the MIT license. See [LICENSE.txt](LICENSE.txt) for more information.
