@@ -43,10 +43,10 @@ $keyboard_music = ['inline_keyboard' => [
                                           ['text' => "Buy Dani's music on the Play Store", 'url' => "https://play.google.com/store/music/artist/Dani_Springer?id=Azs4pemwjhdjeg3czesvzojv4au"]
                                       ],
                                       [
-                                          ['text' => "Buy Dani's music on iTunes", 'url' => "https://itunes.apple.com/us/artist/dani-springer/id1101532290"]
+                                          ['text' => "Buy Dani's music on iTunes", 'url' => "https://itunes.apple.com/us/album/on-a-dreaming-star-2017-version/1296610902?1010lMeb"]
                                       ],
                                       [
-                                          ['text' => 'Follow Dani on Apple Music', 'url' => "https://itunes.apple.com/us/artist/dani-springer/1101532290"]
+                                          ['text' => 'Follow Dani on Apple Music', 'url' => "https://itunes.apple.com/us/album/on-a-dreaming-star-2017-version/1296610902?1010lMeb"]
                                       ],
                                       [
                                           ['text' => "Preview Dani's music on MostlyMusic", 'url' => "https://mostlymusic.com/collections/vendors?q=Dani%20Springer"]
@@ -65,6 +65,9 @@ $keyboard_music = ['inline_keyboard' => [
                                       ],
                                       [
                                           ['text' => "Buy Dani's music on Tidal", 'url' => "http://tidal.com/us/store/artist/7732967"]
+                                      ],
+                                      [
+                                          ['text' => "Listen to Dani's music on Deezer", 'url' => "https://www.deezer.com/us/artist/10164056"]
                                       ],
                                       [
                                           ['text' => "Listen to Dani's music on Shazam", 'url' => "https://www.shazam.com/gb/artist/202646271/dani-springer"]
@@ -95,16 +98,7 @@ $keyboard_social = ['inline_keyboard' => [
                                           ['text' => 'Follow Dani on Twitter', 'url' => "https://twitter.com/imdanispringer"]
                                       ],
                                       [
-                                          ['text' => 'Like Dani on Facebook', 'url' => "https://www.facebook.com/imdanispringer/"]
-                                      ],
-                                      [
-                                          ['text' => 'Follow Dani on Instagram', 'url' => "https://www.instagram.com/imdanispringer/"]
-                                      ],
-                                      [
                                           ['text' => 'Connect with Dani on LinkedIn', 'url' => "https://www.linkedin.com/in/danispringer/"]
-                                      ],
-                                      [
-                                          ['text' => "Chat with my best buddy '@imDaniSpringer Bot'", 'url' => "https://www.facebook.com/imDaniSpringer/"]
                                       ]
                                   ]
                               ];
@@ -118,9 +112,6 @@ $keyboard_about = ['inline_keyboard' => [
                                       ],
                                       [
                                           ['text' => 'Follow Dani on GitHub', 'url' => "https://github.com/danispringer"]
-                                      ],
-                                      [
-                                          ['text' => "Chat with my best buddy '@imDaniSpringer Bot'", 'url' => "https://www.facebook.com/imDaniSpringer/"]
                                       ],
                                       [
                                           ['text' => "Visit Dani's official site", 'url' => "https://danispringer.github.io/"]
@@ -148,12 +139,6 @@ $keyboard_full_list = ['inline_keyboard' => [
                                           ['text' => 'Follow Dani on Twitter', 'url' => "https://twitter.com/imDanispringer"]
                                       ],
                                       [
-                                          ['text' => 'Like Dani on Facebook', 'url' => "https://www.facebook.com/imDanispringer/"]
-                                      ],
-                                      [
-                                          ['text' => 'Follow Dani on Instagram', 'url' => "https://www.instagram.com/imDanispringer/"]
-                                      ],
-                                      [
                                           ['text' => 'Connect with Dani on LinkedIn', 'url' => "https://www.linkedin.com/in/Danispringer/"]
                                       ],
                                       [
@@ -163,13 +148,10 @@ $keyboard_full_list = ['inline_keyboard' => [
                                           ['text' => 'Follow Dani on GitHub', 'url' => "https://github.com/danispringer"]
                                       ],
                                       [
-                                          ['text' => "Chat with my best buddy '@imDaniSpringer Bot'", 'url' => "https://www.facebook.com/imDaniSpringer/"]
-                                      ],
-                                      [
                                           ['text' => "Preview Dani's music on MostlyMusic", 'url' => "https://mostlymusic.com/collections/vendors?q=Dani%20Springer"]
                                       ],
                                       [
-                                          ['text' => "Preview Dani's on SoundCloud", 'url' => "https://soundcloud.com/danispringer"]
+                                          ['text' => "Preview Dani's music on SoundCloud", 'url' => "https://soundcloud.com/danispringer"]
                                       ],
                                       [
                                           ['text' => "Visit official site", 'url' => "https://danispringer.github.io/"]
@@ -178,10 +160,10 @@ $keyboard_full_list = ['inline_keyboard' => [
                                           ['text' => "Buy Dani's music on the Play Store", 'url' => "https://play.google.com/store/music/artist/Dani_Springer?id=Azs4pemwjhdjeg3czesvzojv4au"]
                                       ],
                                       [
-                                          ['text' => "Buy Dani's music on iTunes", 'url' => "https://itunes.apple.com/us/artist/dani-springer/id1101532290"]
+                                          ['text' => "Buy Dani's music on iTunes", 'url' => "https://itunes.apple.com/us/album/on-a-dreaming-star-2017-version/1296610902?1010lMeb"]
                                       ],
                                       [
-                                          ['text' => 'Follow Dani on Apple Music', 'url' => "https://itunes.apple.com/us/artist/dani-springer/1101532290"]
+                                          ['text' => 'Follow Dani on Apple Music', 'url' => "https://itunes.apple.com/us/album/on-a-dreaming-star-2017-version/1296610902?1010lMeb"]
                                       ],
                                       [
                                           ['text' => "Buy Dani's music on Amazon", 'url' => "https://www.amazon.com/s/ref=ntt_srch_drd_B01EE9QVCS?ie=UTF8&field-keywords=Dani%20Springer&index=digital-music&search-type=ss"]
@@ -190,13 +172,16 @@ $keyboard_full_list = ['inline_keyboard' => [
                                           ['text' => "Buy Dani's music on CD Baby", 'url' => "https://store.cdbaby.com/Artist/danispringer"]
                                       ],
                                       [
-                                          ['text' => "Follow Dani on Spotify", 'url' => "https://play.spotify.com/artist/6wp28GMW9iypStW4pCsCN9"]
+                                          ['text' => "Listen to Dani's music on Spotify", 'url' => "https://play.spotify.com/artist/6wp28GMW9iypStW4pCsCN9"]
                                       ],
                                       [
                                           ['text' => "Buy Dani's music on Yandex", 'url' => "https://music.yandex.ua/artist/4345578"]
                                       ],
                                       [
                                           ['text' => "Buy Dani's music on Tidal", 'url' => "http://tidal.com/us/store/artist/7732967"]
+                                      ],
+                                      [
+                                          ['text' => "Listen to Dani's music on Deezer", 'url' => "https://www.deezer.com/us/artist/10164056"]
                                       ],
                                       [
                                           ['text' => "Listen to Dani's music on Shazam", 'url' => "https://www.shazam.com/gb/artist/202646271/dani-springer"]
