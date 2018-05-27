@@ -2,7 +2,7 @@
 - Telegram Bot that gives you various links for Dani Springer (That's me! 😄).
 - Chat with @DaniSpringerBot here: [http://t.me/danispringerbot](http://t.me/danispringerbot)
 
-![Screenshot](https://raw.githubusercontent.com/DaniSpringer/danispringerbot-telegram/master/i.jpg)
+![Screenshot](https://raw.githubusercontent.com/DaniSpringer/danispringerbot-telegram/master/i-tiny.jpg)
 
 # How can I use this code?
 - I'm soon overhauling this README to (hopefully) be much easier to understand and use. First, I'm overhauling the bot itself! :D
