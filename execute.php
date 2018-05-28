@@ -274,7 +274,7 @@ $keyboard_full_list = ['inline_keyboard' => [
 ];
 
 $keyboard = "";
-$message = "Hello!";
+$reply = "Hello!";
 $help_message = "Type any of the commands below. ↙️\n\nmusic\nsocial\nabout\nall\n\nNeed help? Chat directly with @DaniSpringer!";
 
 $ok_messages = array(
@@ -307,11 +307,20 @@ $sorry_messages = array(
 );
 $rand_sorry = $sorry_messages[array_rand($sorry_messages)];
 
-if(strpos($text, "/start") === 0 || (strpos($text, 'start') !== false) || (strpos($text, 'hi') !== false) || (strpos($text, 'hey') !== false) || (strpos($text, 'hello') !== false) || (strpos($text, '👋') !== false))
+if(strpos($text, "/start") === 0 || (strpos($text, 'start') !== false) || (strpos($text, 'hi') !== false) || (strpos($text, 'hey') !== false) || (strpos($text, 'hello') !== false) || (strpos($text, '👋') !== false)  || (strpos($text, "what's up") !== false))
 {
     //$keyboard = $keyboard_full_list;
-    $message = "👋😊 $rand_hi $firstname! Nice to meet you.\n\n$help_message";
-    $parameters = array('chat_id' => $chatId, 'text' => "$message");
+    $reply = "👋😊 $rand_hi $firstname! Nice to meet you.\n\n$help_message";
+    $parameters = array('chat_id' => $chatId, 'text' => "$reply");
+    $parameters["method"] = "sendMessage";
+    $parameters["parse_mode"] = "markdown";
+    echo json_encode($parameters);
+}
+elseif(!isset($message['text']))
+{
+    // received something other than text
+    $reply = "😕 Sorry $firstname, I only understand *text* messages for now.\n\n$help_message";
+    $parameters = array('chat_id' => $chatId, 'text' => "$reply");
     $parameters["method"] = "sendMessage";
     $parameters["parse_mode"] = "markdown";
     echo json_encode($parameters);
@@ -319,28 +328,28 @@ if(strpos($text, "/start") === 0 || (strpos($text, 'start') !== false) || (strpo
 elseif((strpos($text, 'music') !== false))
 {
     $keyboard = $keyboard_music;
-    $message = "🎵 $rand_ok, $firstname: Here are Dani's *music* links!\n\n$help_message";
+    $reply = "🎵 $rand_ok, $firstname: Here are Dani's *music* links!\n\n$help_message";
 }
 elseif ((strpos($text, 'social') !== false))
 {
     $keyboard = $keyboard_social;
-    $message = "📸 $rand_ok, $firstname: Here are Dani's *social* media links!\n\n$help_message";
+    $reply = "📸 $rand_ok, $firstname: Here are Dani's *social* media links!\n\n$help_message";
 }
 elseif ((strpos($text, 'about') !== false))
 {
     $keyboard = $keyboard_about;
-    $message = "🔍 $rand_ok, $firstname: Here is more info *about* Dani Springer!\n\n$help_message";
+    $reply = "🔍 $rand_ok, $firstname: Here is more info *about* Dani Springer!\n\n$help_message";
 }
 elseif ((strpos($text, 'all') !== false))
 {
     $keyboard = $keyboard_full_list;
-    $message = "📄 $rand_ok, $firstname: Here are *all* of Dani's links!\n\n$help_message";
+    $reply = "📄 $rand_ok, $firstname: Here are *all* of Dani's links!\n\n$help_message";
 }
 else
 {
     //$keyboard = $keyboard_full_list;
-    $message = "$rand_sorry\n\n$help_message";
-    $parameters = array('chat_id' => $chatId, 'text' => "$message");
+    $reply = "$rand_sorry\n\n$help_message";
+    $parameters = array('chat_id' => $chatId, 'text' => "$reply");
     $parameters["method"] = "sendMessage";
     $parameters["parse_mode"] = "markdown";
     echo json_encode($parameters);
@@ -348,7 +357,7 @@ else
 
 
 
-$parameters = array('chat_id' => $chatId, 'text' => "$message");
+$parameters = array('chat_id' => $chatId, 'text' => "$reply");
 
 $parameters["method"] = "sendMessage";
 $parameters["parse_mode"] = "markdown";
