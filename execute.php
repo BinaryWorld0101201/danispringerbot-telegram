@@ -24,23 +24,23 @@ header("Content-Type: application/json");
 $links = array(
     'youtube' => array(
         'desc' => "YouTube",
-        'url' => "https://youtube.com/danispringer"
+        'url' => "https://www.youtube.com/watch?v=jN-IuooWhwM"
     ),
     'spotify' => array(
         'desc' => "Spotify",
-        'url' => "https://play.spotify.com/artist/6wp28GMW9iypStW4pCsCN9"
+        'url' => "https://open.spotify.com/album/2CQHq4xZ4T28tFb7xdQlkO"
     ),
     'play_store' => array(
         'desc' => "Play Store",
-        'url' => "https://play.google.com/store/music/artist/Dani_Springer?id=Azs4pemwjhdjeg3czesvzojv4au"
+        'url' => "https://play.google.com/store/music/album/Dani_Springer_Good_Morning?id=Bmvuvd3iuglmay7vhruv5ui3yoe"
     ),
     'itunes' => array(
         'desc' => "iTunes",
-        'url' => "https://itunes.apple.com/us/album/on-a-dreaming-star-2017-version/1296610902?1010lMeb"
+        'url' => "https://itunes.apple.com/us/album/good-morning/1380840755"
     ),
     'apple_music' => array(
         'desc' => "Apple Music",
-        'url' => "https://itunes.apple.com/us/album/on-a-dreaming-star-2017-version/1296610902?1010lMeb"
+        'url' => "https://itunes.apple.com/us/album/good-morning/1380840755"
     ),
     'mostly_music' => array(
         'desc' => "MostlyMusic",
@@ -48,31 +48,31 @@ $links = array(
     ),
     'amazon' => array(
         'desc' => "Amazon",
-        'url' => "https://www.amazon.com/s/ref=ntt_srch_drd_B01EE9QVCS?ie=UTF8&field-keywords=Dani%20Springer&index=digital-music&search-type=ss"
+        'url' => "https://www.amazon.com/Good-Morning-Dani-Springer/dp/B07CVPM47W/ref=sr_1_1?ie=UTF8&qid=1527815351&sr=8-1&keywords=dani+springer"
     ),
     'cd_baby' => array(
         'desc' => "CD Baby",
-        'url' => "https://store.cdbaby.com/Artist/danispringer"
+        'url' => "https://store.cdbaby.com/cd/danispringer12"
     ),
     'soundcloud' => array(
         'desc' => "SoundCloud",
-        'url' => "https://soundcloud.com/danispringer"
+        'url' => "https://soundcloud.com/danispringer/good-morning-demo"
     ),
     'yandex' => array(
         'desc' => "Yandex",
-        'url' => "https://music.yandex.ua/artist/4345578"
+        'url' => "https://music.yandex.ua/album/5354177"
     ),
     'tidal' => array(
         'desc' => "Tidal",
-        'url' => "http://tidal.com/us/store/artist/7732967"
+        'url' => "http://tidal.com/it/store/album/88504196"
     ),
     'deezer' => array(
         'desc' => "Deezer",
-        'url' => "https://www.deezer.com/us/artist/10164056"
+        'url' => "https://www.deezer.com/us/album/63032862"
     ),
     'shazam' => array(
         'desc' => "Shazam",
-        'url' => "https://www.shazam.com/gb/artist/202646271/dani-springer"
+        'url' => "https://www.shazam.com/track/416918015/good-morning"
     ),
     'slacker_radio' => array(
         'desc' => "Slacker",
@@ -80,19 +80,23 @@ $links = array(
     ),
     'kkbox' => array(
         'desc' => "KKBOX",
-        'url' => "https://www.kkbox.com/jp/ja/artist/kMofOQIp1IH1JO0F0V7.m08K-index-1.html"
+        'url' => "https://www.kkbox.com/jp/ja/album/GheqWCupeBSlg0F24YGC009H-index.html"
     ),
     'napster' => array(
         'desc' => "Napster",
-        'url' => "https://us.napster.com/artist/dani-springer"
+        'url' => "https://us.napster.com/artist/dani-springer/album/good-morning"
     ),
     'iheart_radio' => array(
         'desc' => "iHeart",
-        'url' => "https://www.iheart.com/artist/dani-springer-31186894/"
+        'url' => "https://www.iheart.com/artist/dani-springer-31186894/albums/good-morning-56807642/"
     ),
     'anghami' => array(
         'desc' => "Anghami",
-        'url' => "https://www.anghami.com/artist/2541446"
+        'url' => "https://play.anghami.com/song/36298458"
+    ),
+    'saavn' => array(
+        'desc' => "Saavn",
+        'url' => "https://www.saavn.com/s/artist/dani-springer-albums/M0XBl2X3Tqo_"
     ),
     'twitter' => array(
         'desc' => "Twitter",
@@ -116,19 +120,15 @@ $links = array(
     ),
     'google' => array(
         'desc' => "Google",
-        'url' => "https://www.google.com/search?q=dani+springer+musical+artist"
+        'url' => "https://www.google.com/search?q=dani+springer+-jerry+-pinterest+-theknot+-games+-danielle+-book+-bill+-adopted+-dog+-facebook"
     ),
     'google_images' => array(
         'desc' => "GImages",
-        'url' => "http://www.google.com/images?q=dani+springer+musical+artist"
+        'url' => "http://www.google.com/images?q=dani+springer+-jerry+-pinterest+-theknot+-games+-danielle+-book+-bill+-adopted+-dog&oq=dani+springer+-jerry+-pinterest+-theknot+-games+-danielle+-book+-bill+-adopted+-dog"
     ),
     'logo' => array(
         'desc' => "Picture",
-        'url' => "https://danispringer.github.io/i/dani-springer-tiny.jpg"
-    ),
-    'donate' => array(
-        'desc' => "Donate",
-        'url' => "https://www.gofundme.com/help-me-bring-you-more-great-music"
+        'url' => "https://danispringer.github.io/i/pizza-tinified-resized.jpg"
     )
 );
 
@@ -179,6 +179,9 @@ $keyboard_music = ['inline_keyboard' => [
     [
         ['text' => $links["iheart_radio"]["desc"], 'url' => $links["iheart_radio"]["url"]],
         ['text' => $links["anghami"]["desc"], 'url' => $links["anghami"]["url"]]
+    ],
+    [
+        ['text' => $links["saavn"]["desc"], 'url' => $links["saavn"]["url"]]
     ]
   ]
 ];
@@ -208,8 +211,7 @@ $keyboard_about = ['inline_keyboard' => [
         ['text' => $links["google_images"]["desc"], 'url' => $links["google_images"]["url"]]
     ],
     [
-        ['text' => $links["logo"]["desc"], 'url' => $links["logo"]["url"]],
-        ['text' => $links["donate"]["desc"], 'url' => $links["donate"]["url"]]
+        ['text' => $links["logo"]["desc"], 'url' => $links["logo"]["url"]]
     ]
   ]
 ];
@@ -261,14 +263,14 @@ $keyboard_full_list = ['inline_keyboard' => [
     ],
     [
         ['text' => $links["anghami"]["desc"], 'url' => $links["anghami"]["url"]],
-        ['text' => $links["logo"]["desc"], 'url' => $links["logo"]["url"]]
+        ['text' => $links["saavn"]["desc"], 'url' => $links["saavn"]["url"]]
     ],
     [
         ['text' => $links["google"]["desc"], 'url' => $links["google"]["url"]],
         ['text' => $links["google_images"]["desc"], 'url' => $links["google_images"]["url"]]
     ],
     [
-        ['text' => $links["donate"]["desc"], 'url' => $links["donate"]["url"]]
+        ['text' => $links["logo"]["desc"], 'url' => $links["logo"]["url"]]
     ]
   ]
 ];
@@ -310,7 +312,7 @@ $rand_sorry = $sorry_messages[array_rand($sorry_messages)];
 if(strpos($text, "/start") === 0 || (strpos($text, 'start') !== false) || (strpos($text, 'hi') !== false) || (strpos($text, 'hey') !== false) || (strpos($text, 'hello') !== false) || (strpos($text, '👋') !== false)  || (strpos($text, "what's up") !== false))
 {
     //$keyboard = $keyboard_full_list;
-    $reply = "👋😊 $rand_hi $firstname! Nice to meet you.\n\n$help_message";
+    $reply = "👋😊 $rand_hi $firstname! Have you heard Dani's new single '*Good Morning*'?\nYou can find it on any of his music pages.\nType 'music' for a list of them!\n\n$help_message";
     $parameters = array('chat_id' => $chatId, 'text' => "$reply");
     $parameters["method"] = "sendMessage";
     $parameters["parse_mode"] = "markdown";
