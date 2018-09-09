@@ -24,55 +24,47 @@ header("Content-Type: application/json");
 $links = array(
     'youtube' => array(
         'desc' => "YouTube",
-        'url' => "https://www.youtube.com/watch?v=jN-IuooWhwM"
+        'url' => "https://www.youtube.com/watch?v=UEdtdy0o_7k"
     ),
     'spotify' => array(
         'desc' => "Spotify",
-        'url' => "https://open.spotify.com/album/2CQHq4xZ4T28tFb7xdQlkO"
+        'url' => "https://open.spotify.com/album/7r5clZHotdzDI0wPbR98rT"
     ),
     'play_store' => array(
         'desc' => "Play Store",
-        'url' => "https://play.google.com/store/music/album/Dani_Springer_Good_Morning?id=Bmvuvd3iuglmay7vhruv5ui3yoe"
+        'url' => "https://play.google.com/store/music/album/Dani_Springer_On_a_Dreaming_Star_2018?id=Biticlrjnzrgbsggzt3ddhs3eqy"
     ),
     'itunes' => array(
         'desc' => "iTunes",
-        'url' => "https://itunes.apple.com/us/album/good-morning/1380840755"
+        'url' => "https://itunes.apple.com/us/album/on-a-dreaming-star-2018/1411551332"
     ),
     'apple_music' => array(
         'desc' => "Apple Music",
-        'url' => "https://itunes.apple.com/us/album/good-morning/1380840755"
-    ),
-    'mostly_music' => array(
-        'desc' => "MostlyMusic",
-        'url' => "https://mostlymusic.com/collections/vendors?q=Dani%20Springer"
+        'url' => "https://itunes.apple.com/us/album/on-a-dreaming-star-2018/1411551332"
     ),
     'amazon' => array(
         'desc' => "Amazon",
-        'url' => "https://www.amazon.com/Good-Morning-Dani-Springer/dp/B07CVPM47W/ref=sr_1_1?ie=UTF8&qid=1527815351&sr=8-1&keywords=dani+springer"
+        'url' => "https://www.amazon.com/Dreaming-Star-2018-Dani-Springer/dp/B07FK7BN3S/ref=sr_1_1?s=dmusic&ie=UTF8&qid=1534080071&sr=1-1-mp3-albums-bar-strip-0&keywords=Dani+Springer"
     ),
     'cd_baby' => array(
         'desc' => "CD Baby",
-        'url' => "https://store.cdbaby.com/cd/danispringer12"
-    ),
-    'soundcloud' => array(
-        'desc' => "SoundCloud",
-        'url' => "https://soundcloud.com/danispringer/good-morning-demo"
+        'url' => "https://store.cdbaby.com/cd/danispringer13"
     ),
     'yandex' => array(
         'desc' => "Yandex",
-        'url' => "https://music.yandex.ua/album/5354177"
+        'url' => "https://music.yandex.ua/album/5558910"
     ),
     'tidal' => array(
         'desc' => "Tidal",
-        'url' => "http://tidal.com/it/store/album/88504196"
+        'url' => "http://tidal.com/it/store/album/91936063"
     ),
     'deezer' => array(
         'desc' => "Deezer",
-        'url' => "https://www.deezer.com/us/album/63032862"
+        'url' => "https://www.deezer.com/us/album/68272011"
     ),
     'shazam' => array(
         'desc' => "Shazam",
-        'url' => "https://www.shazam.com/track/416918015/good-morning"
+        'url' => "https://www.shazam.com/track/431272199/on-a-dreaming-star-2018"
     ),
     'slacker_radio' => array(
         'desc' => "Slacker",
@@ -80,7 +72,7 @@ $links = array(
     ),
     'kkbox' => array(
         'desc' => "KKBOX",
-        'url' => "https://www.kkbox.com/jp/ja/album/GheqWCupeBSlg0F24YGC009H-index.html"
+        'url' => "https://www.kkbox.com/jp/ja/album/OPFthAaDIKwKY0F2Di0w009H-index.html"
     ),
     'napster' => array(
         'desc' => "Napster",
@@ -92,15 +84,11 @@ $links = array(
     ),
     'anghami' => array(
         'desc' => "Anghami",
-        'url' => "https://play.anghami.com/song/36298458"
+        'url' => "https://play.anghami.com/song/38690686"
     ),
     'saavn' => array(
         'desc' => "Saavn",
         'url' => "https://www.saavn.com/s/artist/dani-springer-albums/M0XBl2X3Tqo_"
-    ),
-    'twitter' => array(
-        'desc' => "Twitter",
-        'url' => "https://twitter.com/imdanispringer"
     ),
     'linkedin' => array(
         'desc' => "LinkedIn",
@@ -120,15 +108,19 @@ $links = array(
     ),
     'google' => array(
         'desc' => "Google",
-        'url' => "https://www.google.com/search?q=dani+springer+-jerry+-pinterest+-theknot+-games+-danielle+-book+-bill+-adopted+-dog+-facebook"
+        'url' => "https://www.google.com/search?q=dani+springer"
     ),
-    'google_images' => array(
-        'desc' => "GImages",
-        'url' => "http://www.google.com/images?q=dani+springer+-jerry+-pinterest+-theknot+-games+-danielle+-book+-bill+-adopted+-dog&oq=dani+springer+-jerry+-pinterest+-theknot+-games+-danielle+-book+-bill+-adopted+-dog"
+    'ios' => array(
+        'desc' => "iOS Degree",
+        'url' => "https://danispringer.github.io/Dani-Springer-Udacity-iOSND.pdf"
+    ),
+    'app_store' => array(
+        'desc' => "My Apps",
+        'url' => "https://itunes.apple.com/us/developer/daniel-springer/id1402417666?mt=8"
     ),
     'logo' => array(
         'desc' => "Picture",
-        'url' => "https://danispringer.github.io/i/pizza-tinified-resized.jpg"
+        'url' => "https://danispringer.github.io/i/z-telegram.jpg"
     )
 );
 
@@ -153,15 +145,13 @@ $keyboard_music = ['inline_keyboard' => [
         ['text' => $links["apple_music"]["desc"], 'url' => $links["apple_music"]["url"]]
     ],
     [
-        ['text' => $links["play_store"]["desc"], 'url' => $links["play_store"]["url"]],
-        ['text' => $links["mostly_music"]["desc"], 'url' => $links["mostly_music"]["url"]]
+        ['text' => $links["play_store"]["desc"], 'url' => $links["play_store"]["url"]]
     ],
     [
         ['text' => $links["amazon"]["desc"], 'url' => $links["amazon"]["url"]],
         ['text' => $links["cd_baby"]["desc"], 'url' => $links["cd_baby"]["url"]]
     ],
     [
-        ['text' => $links["soundcloud"]["desc"], 'url' => $links["soundcloud"]["url"]],
         ['text' => $links["yandex"]["desc"], 'url' => $links["yandex"]["url"]]
     ],
     [
@@ -188,7 +178,6 @@ $keyboard_music = ['inline_keyboard' => [
 
 $keyboard_social = ['inline_keyboard' => [
     [
-        ['text' => $links["twitter"]["desc"], 'url' => $links["twitter"]["url"]],
         ['text' => $links["linkedin"]["desc"], 'url' => $links["linkedin"]["url"]]
     ],
     [
@@ -199,26 +188,35 @@ $keyboard_social = ['inline_keyboard' => [
 
 $keyboard_about = ['inline_keyboard' => [
     [
+        ['text' => $links["app_store"]["desc"], 'url' => $links["app_store"]["url"]]
+    ],
+    [
         ['text' => $links["linkedin"]["desc"], 'url' => $links["linkedin"]["url"]],
         ['text' => $links["resume"]["desc"], 'url' => $links["resume"]["url"]]
+    ],
+    [
+        ['text' => $links["ios"]["desc"], 'url' => $links["ios"]["url"]],
+        ['text' => $links["logo"]["desc"], 'url' => $links["logo"]["url"]]
     ],
     [
         ['text' => $links["github"]["desc"], 'url' => $links["github"]["url"]],
         ['text' => $links["site"]["desc"], 'url' => $links["site"]["url"]]
     ],
     [
-        ['text' => $links["google"]["desc"], 'url' => $links["google"]["url"]],
-        ['text' => $links["google_images"]["desc"], 'url' => $links["google_images"]["url"]]
-    ],
-    [
-        ['text' => $links["logo"]["desc"], 'url' => $links["logo"]["url"]]
+        ['text' => $links["google"]["desc"], 'url' => $links["google"]["url"]]
     ]
   ]
 ];
 
 $keyboard_full_list = ['inline_keyboard' => [
     [
-        ['text' => $links["twitter"]["desc"], 'url' => $links["twitter"]["url"]],
+        ['text' => $links["app_store"]["desc"], 'url' => $links["app_store"]["url"]]
+    ],
+    [
+        ['text' => $links["ios"]["desc"], 'url' => $links["ios"]["url"]],
+        ['text' => $links["logo"]["desc"], 'url' => $links["logo"]["url"]]
+    ],
+    [
         ['text' => $links["github"]["desc"], 'url' => $links["github"]["url"]]
     ],
     [
@@ -226,11 +224,9 @@ $keyboard_full_list = ['inline_keyboard' => [
         ['text' => $links["resume"]["desc"], 'url' => $links["resume"]["url"]]
     ],
     [
-        ['text' => $links["youtube"]["desc"], 'url' => $links["youtube"]["url"]],
-        ['text' => $links["mostly_music"]["desc"], 'url' => $links["mostly_music"]["url"]]
+        ['text' => $links["youtube"]["desc"], 'url' => $links["youtube"]["url"]]
     ],
     [
-        ['text' => $links["soundcloud"]["desc"], 'url' => $links["soundcloud"]["url"]],
         ['text' => $links["play_store"]["desc"], 'url' => $links["play_store"]["url"]]
     ],
     [
@@ -266,11 +262,7 @@ $keyboard_full_list = ['inline_keyboard' => [
         ['text' => $links["saavn"]["desc"], 'url' => $links["saavn"]["url"]]
     ],
     [
-        ['text' => $links["google"]["desc"], 'url' => $links["google"]["url"]],
-        ['text' => $links["google_images"]["desc"], 'url' => $links["google_images"]["url"]]
-    ],
-    [
-        ['text' => $links["logo"]["desc"], 'url' => $links["logo"]["url"]]
+        ['text' => $links["google"]["desc"], 'url' => $links["google"]["url"]]
     ]
   ]
 ];
@@ -312,7 +304,7 @@ $rand_sorry = $sorry_messages[array_rand($sorry_messages)];
 if(strpos($text, "/start") === 0 || (strpos($text, 'start') !== false) || (strpos($text, 'hi') !== false) || (strpos($text, 'hey') !== false) || (strpos($text, 'hello') !== false) || (strpos($text, '👋') !== false)  || (strpos($text, "what's up") !== false))
 {
     //$keyboard = $keyboard_full_list;
-    $reply = "👋😊 $rand_hi $firstname! Have you heard Dani's new single '*Good Morning*'?\nYou can find it on any of his music pages.\nType 'music' for a list of them!\n\n$help_message";
+    $reply = "👋😊 $rand_hi $firstname!\n\n$help_message";
     $parameters = array('chat_id' => $chatId, 'text' => "$reply");
     $parameters["method"] = "sendMessage";
     $parameters["parse_mode"] = "markdown";
