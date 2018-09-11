@@ -3,8 +3,6 @@
 - That's me! 😄
 - Chat with @DaniSpringerBot here: [http://t.me/danispringerbot](http://t.me/danispringerbot)
 
-[![Screenshot](https://raw.githubusercontent.com/DaniSpringer/danispringerbot-telegram/master/i-tiny.jpg)](http://t.me/danispringerbot)
-
 # How can I use this code?
 - I'm soon overhauling this README to (hopefully) be much easier to understand and use.
 - For now, please see this great article (written in Italian): [https://www.salvatorecordiano.it/creare-un-bot-telegram-guida-passo-passo/](https://www.salvatorecordiano.it/creare-un-bot-telegram-guida-passo-passo/)
